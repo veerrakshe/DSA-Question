@@ -1,4 +1,7 @@
+
+package Feb2026;
 // LeetCode 3719 - Longest Balanced Subarray
+
 // Approach: Brute Force + HashSet
 // Time: O(n^2), Space: O(n)
 
