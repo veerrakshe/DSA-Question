@@ -1,4 +1,4 @@
-package DSA_PROBLEMS;
+package com.ARRAY;
 
 public class MaxConsecutiveOnes {
 	public static void main(String[] args) {
