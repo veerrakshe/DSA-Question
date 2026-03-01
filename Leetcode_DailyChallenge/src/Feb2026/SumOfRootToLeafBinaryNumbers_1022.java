@@ -1,9 +1,19 @@
 package Feb2026;
 
-import java.util.*;
-
 public class SumOfRootToLeafBinaryNumbers_1022 {
-	class Solution {
+
+	// Define your own TreeNode class
+	static class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+
+		TreeNode(int val) {
+			this.val = val;
+		}
+	}
+
+	static class Solution {
 
 		int solve(TreeNode root, int val) {
 
