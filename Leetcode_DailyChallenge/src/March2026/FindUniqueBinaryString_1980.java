@@ -1,0 +1,16 @@
+package March2026;
+
+public class FindUniqueBinaryString_1980 {
+	class Solution {
+		public String findDifferentBinaryString(String[] nums) {
+			int n = nums.length;
+			StringBuilder sb = new StringBuilder();
+			for (int i = 0; i < n; i++) {
+				char flip = nums[i].charAt(i) == '0' ? '1' : '0';
+				sb.append(flip);
+			}
+			return sb.toString();
+
+		}
+	}
+}
