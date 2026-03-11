@@ -1,0 +1,16 @@
+package March2026;
+
+public class ComplementOfBase10Integer_1009 {
+	class Solution {
+		public int bitwiseComplement(int n) {
+			if (n == 0)
+				return 1;
+
+			int mask = 1;
+			while (mask < n) {
+				mask = (mask << 1) | 1; // builds 111...1
+			}
+			return n ^ mask;
+		}
+	}
+}
