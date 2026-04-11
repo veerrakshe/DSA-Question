@@ -2,7 +2,7 @@ package April2026;
 
 import java.util.*;
 
-public class MinimumDistanceBetweenThreeEqualElements_I {
+public class MinimumDistanceBetweenThreeEqualElements_II_3741 {
 	class Solution {
 		public int minimumDistance(int[] nums) {
 			int n = nums.length;
